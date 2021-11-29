@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto: ital, wght @ 0,100; 0,300; 0,400; 0,500; 0,700; 0,900; 1,100; 1,300; 1,400; 1,500; 1,700; 1,900 & display = swap ');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #EAC926;
+}
+
+.tl {
+    display: none;
+}
+
+.titulo{
+font-weight: bold;
+}
+
+h2{
+    margin: 20px 0 0 30px;
+}
+
+form{
+    background-color: #ebebeb;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 20px 0 0 200px;
+}
+
+#nombreyapellido{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+}
+
+.nombreapellido{
+    text-align: center;
+    padding: 12px;
+    border: none;
+}
+
+.nombreusuario{
+    text-align: center;
+    padding: 12px;
+    border: none;
+}
+
+#usuario{
+    padding: 10px;
+    width: 100%; 
+    border: none;
+    border-radius: 8px;
+}
+
+.correo{
+    text-align: center;
+    padding: 12px;
+    border: none;
+}
+
+#email{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+}
+
+
+#fechaNacimiento{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    
+}
+
+.fnacimineto{
+    border: none;
+    text-align: left;
+    padding: 12px;
+    border: none;
+    margin-top: 10px;
+}
+
+.domicilio1{
+    text-align: center;
+    padding: 12px;
+    border: none;
+}
+
+#domicilio{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+}
+
+.perfilusuario{
+    border: none;
+    text-align: left;
+    padding: 12px;    
+    margin-top: 10px;
+}
+
+#perfil{
+   
+    border: none;
+    margin: 0 20px 0 40px;
+}
+
+.interes{
+    border: none;
+    text-align: left;
+    padding: 12px;    
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.catinteres{
+    margin: -15px 0 30px 60px;
+}
+
+#electro{
+    margin-left: 30px;
+}
+
+#moda{
+    margin-left: 30px;
+}
+
+#hogar{
+    margin-left: 30px;
+}
+
+#juguete{
+    margin-left: 30px;
+}
+
+#vida{
+    margin-left: 30px;
+}
+
+.titulo{
+    margin-bottom: 20px;
+}
+
+.fotousuario{
+    border: none;
+    margin: -20px 0 20px 10px;
+}
+
+#foto{
+    padding: 10px;
+}
+
+.contra{
+    text-align: center;
+    padding: 12px;
+    border: none;
+}
+
+#contraseña{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+}
+
+.confircontra{
+    text-align: center;
+    padding: 12px;
+    border: none;
+}
+
+#confirmcontraseña{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+}
+
+.botones{
+border: none;
+padding: 10px 20px;
+}
+
+.bot{
+    margin: 10px 30px;
+    padding: 10px;
+    cursor: pointer;    
+    background-color: #0e6bcf;
+    color: #ffff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgb(100 100 100);
+}
+
+a {
+    background-color: #0e6bcf;
+    color: white;
+    padding: 15px;
+    margin: 20px 0 30px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+ul{
+    padding: 40px;    
+    list-style: none;
+}
+
