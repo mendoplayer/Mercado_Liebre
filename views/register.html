@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <h2>Registro de usuario</h2>
+    <form>
+        <fieldset class="nombreapellido">
+                  <legend class="tl">Nombre y apellido</legend>
+                         <label class="tl" for='nombreyapellido'>Nombre y Apellido</label>
+                           <input type="text" id="nombreyapellido" name="nombreyapellido" placeholder="Nombre y Apellido" required>
+        </fieldset>
+        <fieldset class="nombreusuario">
+            <legend class="tl">Nombre de usuario</legend>
+                   <label  class="tl" for='usuario'>Nombre de usuario</label>
+                     <input type="text" id="usuario" name="usuario" placeholder="Nombre de usuario" required>
+       </fieldset>
+      
+      <fieldset class="correo">
+          <legend class="tl">Correo</legend>
+                 <label  class="tl" for='email'>Correo</label>
+                   <input type="email" id="email" name="email" placeholder="E-mail" required>
+     </fieldset>
+  <fieldset class="fnacimineto">
+    <legend class="titulo" >Fecha de Nacimiento</legend>
+           <label class="tl" for='fechaNacimiento'>Fecha de Nacimiento</label>
+             <input type="date" id="fechaNacimiento" name="fechaNacimiento" placeholder="Fecha de Nacimiento" required>
+</fieldset>
+<fieldset class="domicilio1">
+    <legend class="tl">Domicilio</legend>
+           <label class="tl" for='domicilio'>Domicilio</label>
+             <input type="text" id="domicilio" name="domicilio" placeholder="Domicilio" required>
+</fieldset>
+<fieldset class="perfilusuario">
+    <legend class="titulo">Perfil del usuario</legend>           
+             <input type="radio" id="perfil" name="perfil" value="comprador" required>
+             <label for='perfil'>Comprador</label>             
+             <input type="radio" id="perfil" name="perfil" valeu="vendedor" required>
+             <label for='perfil'>Vendedor</label>
+</fieldset>
+<fieldset class="interes">
+    <legend class="titulo">Categoria de interés</legend>           
+             <input type="checkbox" id="electro" name="categoria" value="electro">
+             <label class="catinteres" for='electro'>Electro</label>
+             <input type="checkbox" id="moda" name="categoria" value="moda">
+             <label class="catinteres" for='moda'>Moda</label>
+             <input type="checkbox" id="hogar" name="categoria" value="hogar">
+             <label class="catinteres" for='hogar'>Hogar</label>
+             <input type="checkbox" id="juguete" name="categoria" value="jugueteria">
+             <label class="catinteres" for='juguete'>Jugueteria</label>
+             <input type="checkbox" id="vida" name="categoria" value="vida sana">
+             <label class="catinteres" for='vida'>Vida sana</label>
+</fieldset>
+<fieldset class="fotousuario">
+    <legend class="titulo">Foto de usuario</legend>
+           <label class="tl" for='foto'>Foto de usuario</label>
+             <input type="file" id="foto" name="foto" placeholder="Foto" required>
+</fieldset>
+<fieldset class="contra">
+    <legend class="tl">Contraseña</legend>
+           <label class="tl" for='contraseña'>Contraseña</label>
+             <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña" required>
+</fieldset>
+<fieldset class="confircontra">
+    <legend class="tl">Confirmar contraseña</legend>
+           <label class="tl" for='confirmcontraseña'>Confirmar contraseña</label>
+             <input type="password" id="confirmcontraseña" name="confirmcontraseña" placeholder="Confirmar contraseña" required>
+</fieldset>
+<fieldset class="botones">
+        <legend class="tl">Botones de formularios</legend>
+               <button class="bot" type="submit">Enviar</button>
+               <button class="bot" type="reset">Reset</button>
+</fieldset>
+    </form>
+
+</body>
+<main>
+<ul>
+  <li><a href="/" >Volver</a></li>
+</ul>
+</main>
+</html>
