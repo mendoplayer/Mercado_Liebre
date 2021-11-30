@@ -9,6 +9,8 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/* ENCABEZADO */
+
 header {
     font-size: 12px;
    background-color: #EAC926;
@@ -29,26 +31,36 @@ main {
     gap: 10px;
 }
 
+.imagen{
+    width: 100%;
+    
+}
+
+
  .barra{
     display: flex;
 }
 
 .barra_buscar{
     border: 0;
-
+    border-radius: 8px 0 0 8px;
 }
 
 .fa-search{
     background-color: #ffffff;
-    padding: 10px 0 0 0;
-   
-}
-
-label {
-    display: none;
+    padding: 15px 0 0 0;
+    border-radius: 0 8px 8px 0;   
 }
 
 
+ul {
+    list-style: none;
+padding: 0;
+display: none;
+}
+a {color: #000;
+    text-decoration: none;
+}
 
 .fa-bars {
  background-color: #1264bd;
@@ -64,10 +76,12 @@ label {
    justify-content: center;
 }
 
-.imagen{
-    width: 100%;
-    
+/* CUERPO */
+
+label {
+    display: none;
 }
+
 
 .lts { 
     font-size: 12px;
@@ -93,21 +107,7 @@ label {
     margin: 30px;
 }
 
-.h4-2 { text-align: center;
-    color: #666;
-    margin: 0;
-}
 
-.txt-fot { text-align: center;
-    color: #adadaddc;
-    margin: auto;
-    padding: 0;
-    width: 70%;
-}
-
-.txt-fot-1 {  color: #adadaddc;
-    margin-top: 20px;
-}
 
 h3 {
     font-size: 24px;
@@ -127,32 +127,6 @@ h3 {
 .prs-2{
     font-size: 16px;
     display: none;
-}
-
-ul {
-    list-style: none;
-padding: 0;
-display: none;
-}
-a {color: #000;
-    text-decoration: none;
-}
-
-.fa-gift {
-    color:#0e6bcf;
-    font-size: 2em;
-    margin: 10px;
-    
-}
-
-.fa-credit-card{ color: #0e6bcf;
-    font-size: 2em;
-    margin: 10px;
-}
-
-.fa-user-shield{ color: #0e6bcf;
-    font-size: 2em;
-    margin: 10px;
 }
 
 .cafetera{
@@ -205,6 +179,43 @@ position: absolute;
 right: 40px;
 margin-top: -35px;
 color: #39b54a;
+}
+
+/* PIE DE PAGINA */
+
+
+.txt-fot { text-align: center;
+    color: #adadaddc;
+    margin: auto;
+    padding: 0;
+    width: 70%;
+}
+
+.txt-fot-1 {  color: #adadaddc;
+    margin-top: 20px;
+}
+
+.h4-2 { text-align: center;
+    color: #666;
+    margin: 0;
+}
+
+
+.fa-gift {
+    color:#0e6bcf;
+    font-size: 2em;
+    margin: 10px;
+    
+}
+
+.fa-credit-card{ color: #0e6bcf;
+    font-size: 2em;
+    margin: 10px;
+}
+
+.fa-user-shield{ color: #0e6bcf;
+    font-size: 2em;
+    margin: 10px;
 }
 
 
