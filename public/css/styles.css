@@ -197,7 +197,13 @@ position: absolute;
 right: 40px;
 margin-top: -35px;
 color: #39b54a;
+transition: all 0.8s;
 }
+
+.fa-truck:hover {
+    transform: rotateZ(-90deg);
+}
+
 
 /* PIE DE PAGINA */
 
@@ -303,6 +309,11 @@ right: 40px;
 margin-top: -35px;
 color: #39b54a;
 position: inherit;
+transition: all 0.8s;
+}
+
+.fa-truck:hover {
+    transform: rotateZ(-90deg);
 }
 
 .descrip {

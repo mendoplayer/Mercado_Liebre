@@ -108,6 +108,7 @@ main{
 button{
     font-size: 1.2em;
 }
+
 .tl{
     display: none;
 }
@@ -141,8 +142,13 @@ button{
     color: white;
     border-radius: 8px;
     cursor: pointer;
+    transition: all 0.5s;
 }
 
+.boton:hover{
+    background-color:#0022AA;
+    ;
+}
 
 /* FINAL DE PAGINA */
 
