@@ -124,10 +124,21 @@ h3 {
     color:#3bc23bd0
 }
 
+
 .prs-2{
-    font-size: 16px;
-    display: none;
+   color:#ffffff;
+    background-color: #ffffff;
+    padding: 10px 0 25px 10px;
+    margin: -20px 0 10px 0;
+    transition: all 1s;
+    
 }
+
+.prs-2:hover{
+    color:#000;
+
+}
+
 
 .cafetera{
     width: 100%;
@@ -261,11 +272,12 @@ h3{
 
 
 .prs-2{
-    display: block;
+    
     background-color: #ffffff;
     padding: 10px 0 25px 10px;
-    margin-top: -5px;
+    margin: -5px 0 0 0;
 }
+
 
 .camion{
     order: 1;
@@ -347,7 +359,8 @@ position: inherit;
     width: 45%;
 }
 
-}
+
+
 
 @media (min-width: 769px) {
     
@@ -411,5 +424,6 @@ position: inherit;
     border-radius: 0 5px 5px 0;
     padding: 10px 5px 10px 0;
 
+}
 }
 }
