@@ -139,12 +139,19 @@ h3 {
 
 }
 
+.art-1{
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.art-1:hover{
+    box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
+}
+
 
 .cafetera{
     width: 100%;
-   
-   
-}
+   }
 
 
 .descrip {
@@ -285,10 +292,10 @@ h3{
 
 .fa-truck{ 
 display: block ;
-font-size: 16px ;
+font-size: 20px ;
 padding: 5px ;
-width: 30px ;
-height: 30px ;
+width: 35px ;
+height: 33px ;
 border: 1px solid #39b54a ;
 background-color: #FFF ;
 border-radius: 50%;
@@ -305,16 +312,11 @@ position: inherit;
     justify-content: space-between ;
 }
 
-
-
 .encabezado{
     display: flex;
-  
     padding: 15px 10px 0 10px;
     gap: 10px;
 }
-
-
 
 .barra_buscar{
     border: 0;
@@ -355,12 +357,15 @@ position: inherit;
 }
 
 .art-1{
-    box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
     width: 45%;
+    transition: all 0.5s;
 }
 
+.art-1:hover{
+    box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
+}
 
-
+}
 
 @media (min-width: 769px) {
     
@@ -386,7 +391,7 @@ position: inherit;
 }
 
 .art-1{
-    box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
+   
     width: 23%;
 }
 
@@ -424,6 +429,5 @@ position: inherit;
     border-radius: 0 5px 5px 0;
     padding: 10px 5px 10px 0;
 
-}
 }
 }
