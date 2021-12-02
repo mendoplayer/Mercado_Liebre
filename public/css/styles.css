@@ -208,7 +208,8 @@ transition: all 0.8s;
 /* PIE DE PAGINA */
 
 
-.txt-fot { text-align: center;
+.txt-fot { 
+    text-align: center;
     color: #adadaddc;
     margin: auto;
     padding: 0;
@@ -331,17 +332,18 @@ transition: all 0.8s;
 
 .barra_buscar{
     border: 0;
-    height: 20px;
+    height: 2.5em;
     margin-top: 30px;    
     border-radius: 5px 0 0 5px;
+    padding: 5px;
 }
 
 .fa-search{
     background-color: #ffffff;
-    height: 20px;
+    height: 2.72em;
     margin-top: 30px;
     border-radius: 0 5px 5px 0;
-    padding: 5px;
+    padding: 10px;
 }
 
 .encabezado_mayor{
@@ -427,10 +429,10 @@ transition: all 0.8s;
 .barra_buscar {
     border: 0;
     height: 3em;
-    width: 17em;
+    width: 22em;
     margin-top: 30px;
     border-radius: 5px 0 0 5px;
-
+    padding: 5px;
 }
 
 .fa-search {
@@ -441,4 +443,51 @@ transition: all 0.8s;
     padding: 10px 5px 10px 0;
 
 }
+
+.lts-3 { 
+    text-align: center;
+    display: flex;
+    margin: 60px 0 40px 0;
+}
+
+
+.txt-fot { 
+    text-align: center;
+    color: #adadaddc;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+}
+
+.fa-gift {
+    color:#0e6bcf;
+    font-size: 2em;
+    margin: 10px;
+    transition: all 0.5s;
+}
+
+.fa-credit-card{ color: #0e6bcf;
+    font-size: 2em;
+    margin: 10px;
+    transition: all 0.5s;
+}
+
+.fa-user-shield{ color: #0e6bcf;
+    font-size: 2em;
+    margin: 10px;
+    transition: all 0.5s;
+}
+
+.fa-gift:hover{
+    color: #4baa38;
+}
+
+.fa-credit-card:hover{
+    color: #4baa38;
+}
+
+.fa-user-shield:hover{
+    color: #4baa38;
+}
+
 }

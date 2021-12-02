@@ -152,41 +152,62 @@ button{
 
 /* FINAL DE PAGINA */
 
-.lts-3 { 
-    text-align: center;
-    margin-top: 5em;
-}
 
 .fa-gift {
     color:#0e6bcf;
     font-size: 2em;
     margin: 10px;
-    
+    transition: all 0.5s;
 }
 
 .fa-credit-card{ color: #0e6bcf;
     font-size: 2em;
     margin: 10px;
+    transition: all 0.5s;
 }
 
 .fa-user-shield{ color: #0e6bcf;
     font-size: 2em;
     margin: 10px;
+    transition: all 0.5s;
 }
 
-.h4-2 { text-align: center;
+.fa-gift:hover{
+    color: #4baa38;
+}
+
+.fa-credit-card:hover{
+    color: #4baa38;
+}
+
+.fa-user-shield:hover{
+    color: #4baa38;
+}
+
+.h4-2 { 
+    text-align: center;
     color: #666;
     margin: 0;
 }
 
-.txt-fot { text-align: center;
-    color: #adadaddc;
-    margin: 0 auto 30px;;
-    padding: 0;
-    width: 70%;
+.lts-3 { 
+    text-align: center;
+    display: flex;
+    margin: 90px 0 40px 0;
 }
 
-.txt-fot-1 {  color: #adadaddc;
-    margin-top: 20px;
+
+.txt-fot { 
+    text-align: center;
+    color: #adadaddc;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+}
+
+
+.txt-fot-1 {  
+    color: #adadaddc;
+    margin-top: 9em;
 }
 
